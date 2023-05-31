@@ -4,8 +4,8 @@ import CreateNewSticker from './CreateNewSticker';
 import FiltrationListBtns from '../mutual/FiltrationListBtns';
 
 import MuiDrawer from '@mui/material/Drawer';
-import { styled, useTheme } from '@mui/material/styles';
 import { Divider, IconButton } from '@mui/material';
+import { styled, useTheme } from '@mui/material/styles';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';

@@ -6,10 +6,10 @@ import CategoryIcons from './CategoryIcons';
 import { categories } from '../../buttons-arrays/ButtonsArrays';
 
 const CategoriesList = ({
-  onModifyCategory,
-  onFilterList,
-  openDrawer,
   openModal,
+  openDrawer,
+  onFilterList,
+  onModifyCategory,
 }) => {
   const handle = onModifyCategory
     ? (arg) => onModifyCategory(arg)

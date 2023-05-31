@@ -32,5 +32,3 @@ const SelectedFilter = ({ children }) => {
 };
 
 export default SelectedFilter;
-
-// sx={{ fontSize: 24 }}

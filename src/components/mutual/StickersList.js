@@ -3,17 +3,17 @@ import { useSelector } from 'react-redux';
 import { useFetchStickersQuery } from '../../store';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { noteContainerVariants } from '../../animation/stickersListAnimation';
 import { cardVariants } from '../../animation/stickerAnimation';
+import { noteContainerVariants } from '../../animation/stickersListAnimation';
 
 import Masonry from 'react-masonry-css';
 
 import { Box, Container } from '@mui/system';
 
-import ErrorMsg from './ErrorMsg';
-import EmptyListMsg from './EmptyListMsg';
 import Spinner from './Spinner';
 import Sticker from './Sticker';
+import ErrorMsg from './ErrorMsg';
+import EmptyListMsg from './EmptyListMsg';
 import ActiveFilter from './ActiveFilter';
 import EmptyFiltrationBtn from './EmptyFiltrationBtn';
 

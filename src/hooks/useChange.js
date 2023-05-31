@@ -45,19 +45,19 @@ const useChange = (title, body, bgColor, category) => {
   };
 
   return {
-    newSticker,
     scroll,
     openModal,
+    newSticker,
     stickerText,
     stickerTitle,
     stickerColor,
     stickerCategory,
     handleOpenModal,
     handleCloseModal,
+    handleModifyColor,
+    handleModifyCategory,
     handleChangeStickerText,
     handleChangeStickerTitle,
-    handleModifyCategory,
-    handleModifyColor,
     handleCleanModifications,
   };
 };
