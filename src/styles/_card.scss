@@ -1,0 +1,38 @@
+.card {
+  cursor: pointer;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.card__inner-box {
+  opacity: 0;
+  transition-delay: 250ms;
+  transition-duration: 300ms;
+}
+
+.card:hover .card__inner-box {
+  opacity: 1;
+  transition-delay: 250ms;
+  transition-duration: 300ms;
+}
+
+.card-category {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card-icon-btns {
+  position: absolute;
+
+  &--delete {
+    top: 0;
+    right: 0;
+  }
+
+  &--edit {
+    bottom: 0;
+    left: 0;
+  }
+}

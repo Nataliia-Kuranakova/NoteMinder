@@ -1,0 +1,34 @@
+.modal-category {
+  position: absolute;
+  padding: 0;
+  bottom: 11px; 
+  left: 85px;
+}
+
+.modal-active-btns {
+  position: absolute;
+
+  &--save {
+    bottom: 0;
+    right: 0;
+  }
+
+  &--close {
+    top: 3px;
+    right: 0;
+  }
+
+  &--select-color {
+    bottom: 3px;
+    left: 0;
+  }
+
+  &--select-category {
+    bottom: 3px;
+    left: 35px;
+  }
+}
+
+
+
+

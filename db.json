@@ -1,0 +1,32 @@
+{
+  "stickers": [
+    {
+      "title": "Enhanced Memory",
+      "body": "Taking notes helps improve memory and retention. When we write down important information, our brains engage in active processing, reinforcing our understanding and making it easier to recall later. By organizing our notes effectively, we create a visual roadmap for information retrieval, allowing us to access key details efficiently.",
+      "category": "study",
+      "bgColor": "#ea7a54",
+      "id": 1
+    },
+    {
+      "title": "Increased Productivity",
+      "body": "Self-organization through note-taking promotes increased productivity. By capturing tasks, deadlines, and priorities in notes, we create a clear action plan. Organizing these notes helps us stay focused, prioritize effectively, and manage our time more efficiently. With a well-organized set of notes, we can tackle tasks systematically and accomplish more in less time.",
+      "category": "project",
+      "bgColor": "#80B2C6",
+      "id": 2
+    },
+    {
+      "title": "Improved Clarity and Structure",
+      "body": "Notes provide a structured framework for our thoughts and ideas. By organizing information in a logical manner, we gain clarity and enhance understanding. Effective note organization enables us to identify connections between different concepts, detect patterns, and develop a more comprehensive understanding of the subject matter.",
+      "category": "work",
+      "bgColor": "#f7d44c",
+      "id": 3
+    },
+    {
+      "title": "Stress Reduction and Peace of Mind",
+      "body": "Using notes for self-organization helps alleviate stress and promote peace of mind. When we jot down important information, deadlines, and ideas, we offload the burden of trying to remember everything in our minds. Having well-organized notes gives us a sense of control and confidence, knowing that all essential details are captured and easily accessible. This reduces mental clutter and allows us to focus on the task at hand, leading to reduced stress levels and increased overall well-being.",
+      "category": "hobby",
+      "bgColor": "#a8d672",
+      "id": 4
+    }
+  ]
+}

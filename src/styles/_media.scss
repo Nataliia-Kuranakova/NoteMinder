@@ -1,0 +1,28 @@
+@media screen and (max-width: 1024px)  {
+
+ .hiden_web-version {
+  display: none;
+ }
+
+  .list-spacing {
+    margin: 35px 0 0 0;
+  }
+
+  .content-empty-list-msg {
+    margin: 40% 0 auto;
+  }
+} 
+
+@media screen and (max-width: 768px)  {
+
+  .content-empty-list-msg {
+    margin: 50% 0 auto;
+  }
+} 
+
+@media screen and (min-width: 1025px)  {
+
+  .hiden_mobile-version {
+    display: none;
+  }
+} 

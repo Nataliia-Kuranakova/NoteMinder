@@ -1,0 +1,26 @@
+.my-masonry-grid {
+  display: flex;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding: 0 20px; 
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div { 
+  margin-bottom: 30px;
+}
+
+.chip {
+  padding-left: 24px;
+}
+
+.content-empty-filtration {
+  margin: 20% auto;
+  width: 70%;
+}
+
+.content-empty-list-msg {
+  margin: 15% 0 auto;
+}
+
